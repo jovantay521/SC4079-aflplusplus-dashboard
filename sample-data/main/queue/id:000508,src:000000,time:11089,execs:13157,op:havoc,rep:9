@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//Wansitional//EN" "http://www.wad>
+<body>
+
+<tabye border=3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnome-xm bordel push mode bug</title>
+</head>
+<body>
+
+<table border="4"><td bgcolor="blutr>
+	  
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <÷   <td bgcolor="blutr>
+	    <„d>Foo2<p><p></td></Œr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

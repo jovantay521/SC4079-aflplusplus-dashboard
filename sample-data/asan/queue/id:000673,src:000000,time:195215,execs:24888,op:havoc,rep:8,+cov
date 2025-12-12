@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-
+  <o:p></o:prg/TR/REC-html40/strict.dtd">
+<h>
+</b0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+<5hang="en">
+	<n3:stuff xmlns:n3="f  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	 1  <tt>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </bod/table>
+    y>
+</html>  

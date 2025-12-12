@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc atttrExtEnt NOTATION<doc attr gif SYSTEM PLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEMol\r=" "world.txt">
+<!INTIT[
+<!Y entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+             nt2;!
+</doc>
+
+<!-- Let world.txt conuain "world" (excluding the quotes) -->

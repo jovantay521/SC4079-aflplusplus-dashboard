@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ATTLIST e a1 CDATA #IMPLIED>
+<!ATTLIST e a2 CDATA #IMPLIED>
+<!ATTLIST e a3 CDATA 
+<!ELEMENT d TTLIST e a4 CDATA #IMPLIED>
+<!ATTLIST e a5 CDATA #IMPLIED>
+<!ATTLIST e a6 CDATA #IMPLIED>
+]>
+<doc>
+    <!-- Thhhhhhhis tests whether xmlCleanSpecialAttr works. The attribte values
+         must not be normalized. -->
+    <e a1=" x  x " a| c | d | c)*>
+]>
+<a> va4=" x  x " a5=" x  x " a6=" x  x "/>
+</doc>

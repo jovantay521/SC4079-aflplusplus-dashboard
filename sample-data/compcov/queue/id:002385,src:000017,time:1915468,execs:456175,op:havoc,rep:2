@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT desoc (src | dest)*>
+<!ELEMt EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+PLIED>
+<!ENTITY dest "<dest id='foo'/>">
+]>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <src ref="foo"/>
+</doc>
+

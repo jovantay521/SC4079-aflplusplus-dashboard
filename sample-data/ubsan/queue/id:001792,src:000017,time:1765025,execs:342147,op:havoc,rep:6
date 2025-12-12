@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((((((((((((((((((((((((((((((MPTY>
+<!ELE€ENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id IÄ #IMPLIED>
+<!ENTITY destÿ"<dE doc [
+<!ELEMENT doc (src | drc ref="foo"/>
+  &dest;
+  <src ref="foo"/>
+</doc>
+

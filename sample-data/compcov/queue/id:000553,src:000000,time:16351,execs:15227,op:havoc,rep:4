@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/stricml push mo©©©©©©©©©©©©e>
+</head>.0 Transiti
+<body>
+
+<table bordep="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

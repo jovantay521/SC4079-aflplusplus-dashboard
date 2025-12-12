@@ -1,0 +1,18 @@
+<!DOCTYPE d____oc [
+<!ATTLIST 
+  <tr>
+    <td bgcolor="white">doc entExt SYSTEM   </td>
+  
+   <!ENTITY ent1 "He2;!
+</doc>
+
+<!-- Let w collo">
+<!ENTITY ent2 SYSTEM bwŒrld.txt">
+<!ENWITY attrExtEnt ENTITY #IMPif" NDATA gif>
+<!NOTATION gig SYSTEM "viewgif.e“e">
+]>
+<doc attrExtEnt="entExt">
+ÿy &ent1;, &ent2;!
+</doc>
+
+<!-- Let w contain "world" (excluding the quotes) -->

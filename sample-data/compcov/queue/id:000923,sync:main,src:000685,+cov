@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional  <td bgcolor="blue">Foo3<&/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnomedxml push mode bug</title>
+</€ead>
+6body>
+
+<table border="4">
+  <tr>
+    <td bgcolr="white">
+	Foo1
+	<table boame="foo" xmlns="http://rÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ<tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+  //EN"0"httporder="4">
+  <tP>
+    <td PSBMA02376</ref/td>
+   </tr>
+  </table>
+  </body>
+</html>  

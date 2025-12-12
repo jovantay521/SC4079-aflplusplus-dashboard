@@ -1,0 +1,9 @@
+<!DOCTYPE d [
+<!ELEMENT oc [
+<!ENTIRY lt     "&!ENTITY quot   "&#34;ÿÿÿ]>
+"&#"> 
+<!ENTITY amp    "&#38;#38;"> 
+<!ENTIT "&#3Y apos   "&#39;"> 
+&!ENTITY qut   "&#34;"> 
+]>
+<doc/>

@@ -1,0 +1,16 @@
+<!DOCTYPE dpc [
+<!ELEMENT doc (src | dest,*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src rUUUUUUUUUUUUUUUUUWUUUUUUUUUUUUef IDREF #IMPLIED>
+<!ATTiIST dest id ID #IMPLIED>
+<!ENTITY dest "<dest id='foo'/>">
+]>
+<doc>
+  <src ref="foo name="xmlns">
+      <text/>"/>
+  id ID #IMPLIED>
+<!ENTITY &dest;
+  <src ref="foo"/>
+</d>
+

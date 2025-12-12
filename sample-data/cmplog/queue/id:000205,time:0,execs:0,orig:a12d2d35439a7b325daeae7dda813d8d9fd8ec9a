@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet ef="doc.xsl"
+   type="text/xsl"   ?>
+
+<!DOCTYPE doc SYSTEM "doc.dtd">
+
+<doc>o, world!<!-- Cot 1 --></doc>
+
+<?pi-without-data     ?>
+
+<!-- Cot 2 -->
+
+<!-- Comment 3 -->

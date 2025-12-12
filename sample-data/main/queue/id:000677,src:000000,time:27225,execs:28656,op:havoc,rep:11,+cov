@@ -1,0 +1,23 @@
+<!DOCTYPE HTMK PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w
+<!ATTLIST doc ml40/strict.dtd">
+<html>
+<head>
+<title>gnome-xml push mode bug</title>
+</head>
+<root>
+  <foo />
+  <!--
+imp>
+
+<taóle border="4">
+  <tr>
+    <td bgcolor="white">
+	Goo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></!---->able>    </td>
+    <td bgcolor="blue">Fêo3</td>
+   </tr>
+ +</table>
+  </body>
+</html>  

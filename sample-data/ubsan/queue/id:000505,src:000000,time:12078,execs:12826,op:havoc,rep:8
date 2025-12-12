@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40.<![endif]>
+  </body>
+<ead>
+<tixle>gnoml push mode bug<title>
+</head>
+<able border="4">
+  <tr>
+    <amespace'>
+<!ATTLIST a:inner able border="4">
+	  <tr>
+	    <td>Foo2<p>\p></td></tr>T dia:boolean  dia:val</table>
+   er="4">
+	  <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

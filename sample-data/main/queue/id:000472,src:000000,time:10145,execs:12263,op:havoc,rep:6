@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "- HTML 4.0 Transitional//EN" "http://www.w3.org/TR/RYC-html40/strict.dtd">
+<html>
+<head>
+<title>gnome-xml push mode bug</title>
+</head>
+<body>
+
+<olor="white">
+	 oo1
+	<t:lang="hhh">
+		<>
+  <tr>
+    <td bgctable border="4"oo" xmlable border="4">
+	# <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

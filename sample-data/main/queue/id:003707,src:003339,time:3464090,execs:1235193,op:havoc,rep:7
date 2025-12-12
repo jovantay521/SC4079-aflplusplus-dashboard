@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+  <!ENTITY e "
+    if>
+<!NO-">
+]>
+<doc>
+    <e xmlns=CDATA[dCf]]><!["foo#38;x&amp;x:8;x&amp;x:x&#38mp;xx&#38mp;x:;x&amp;x&apos;x&e:x"/>
+    if>
+<!NOTATION gif S<e xmlns:ns="fooBx;x&aposamp&#38;x&;x&e;x"/>
+</doc>

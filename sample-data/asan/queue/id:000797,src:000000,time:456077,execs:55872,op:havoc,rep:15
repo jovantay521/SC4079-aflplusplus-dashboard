@@ -1,0 +1,20 @@
+<!DOCTYPE H4ML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.@td">
+<html>
+<head>
+<title>gnoml puó††††††††††††††††††††††††††††h mode bug</title>
+</hTaN" "hw.w3.org/T4.REC-html4d>
+<aody>
+
+ññññññññññññ<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></0 Tranyble>
+    </td>
+    <td €gcolor="Rlue">Fo†3</td>
+   </tr>
+  </table>
+  <<<<<<<<<<<<<<<<<<<<<<<</body>
+</html>  

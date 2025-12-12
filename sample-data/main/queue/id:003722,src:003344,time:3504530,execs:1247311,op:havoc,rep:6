@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+  <!ENTITY e "&ax8;mp;x&apos;x-">
+]>
+<doc>
+    <e xmlns="foo:x<doc>
+    &#38;x&ampn>
+<correct>
+<element ;x&apo‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹s;x&e;x"/>
+    <e xmlnnnnns:ns="foo:x&#38;x&amp;x&apis;x&e;x" >
+</doc>

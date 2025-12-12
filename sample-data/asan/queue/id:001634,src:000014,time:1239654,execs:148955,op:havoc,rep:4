@@ -1,0 +1,5 @@
+<doc xmlns:a="urn:a" xmlns:b="urn?//a"<doc xmlns::::::::>
+  <b/>
+  <a:a>
+    b:b:a=""/>
+</doc>

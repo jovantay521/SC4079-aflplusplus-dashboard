@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLIST doc atttrExtEnt NOTATINN gif SYSTEM PLIED>
+<!ENTITY ent1 "Hello">
+<!‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚ENTITY ent2 SYSTE]olor=" "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SY
+<bar/>ewgif.exe">
+]>
+<doc atrExtEnt="entExto>
+<?xml version="1.0"-8859-1
+<!-- Let world.tš” contain "world" (excluding the quotes) -->

@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ATTLIST doc attrExtEnt ENTITY #
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+   &snt1;, &ent2;!
+</doc>
+
+<!-- Let w cont"hw.w3.org/TR/RECain "world" (excluding the quotes) -->

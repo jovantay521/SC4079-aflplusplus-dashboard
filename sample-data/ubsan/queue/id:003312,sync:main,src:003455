@@ -1,0 +1,8 @@
+<!DOCTYPE dsc [
+<!ENTITY lt     "&#x26;#x3c;"> 
+<!ENTITY gt     "&#x26;#x33333 
+<!ENTITY amq    "&#x26;#x26;"> 
+<!ENTITY apos   "&#x26;#x27;"> 
+<!ENTITY ruot   "&#x26;#x22;"> 
+]>
+<doc/>

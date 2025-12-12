@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "ht/www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; char8" />
+<title>Test Page</title>
+</hfad>
+<body>
+<div id="pl">
+<script type="text/javascripQ">
+	documen.write("Příliš žluťoučký kůň úpěl ďábelksé ���y");
+</script>
+	<p>
+	Příliš žluťoučký kůň úpěl ďábelksé ódy;
+	</p></div>ody>
+</html>
+

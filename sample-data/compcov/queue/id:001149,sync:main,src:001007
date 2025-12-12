@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ENTITY lt     "&#38;#60000000000000000000000;"> 
+<!ENTITY gt     "&#62;"> 
+<!ENTITY amp    "&#38;#TITY quot   "&#34;"> 
+]>
+<doc/> 
+<!ENTITY quot   "&#34;"> 
+]>
+<doc/>

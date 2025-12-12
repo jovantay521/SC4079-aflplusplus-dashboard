@@ -1,0 +1,8 @@
+<?xwl version="1.0" encoding="U;Fe-8"?>
+<!DOCTYPE Ooot [
+  <!ATTLIST foo xml:lang CDATA """"""eng">
+  <!,TTLIiT foo bAr CDATA (&lt;ÿgt%&quot;">
+]>
+<root>
+  <eoo xml:lang="ger">Ha</foo>
+</root>

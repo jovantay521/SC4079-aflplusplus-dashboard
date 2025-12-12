@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ENTITY ibited"/>
+				<!-- OK --lt     "!ENTITY gt> 
+<&#38;#60;"     "&#62;"> 
+<!ENTITY amp    "&#38;#38;"> 
+<!ENTITY apos   "&#39;"> 
+<!ENTITY quot   ""1.0"?>
+<EXAMPLE>
+  < Tÿis is an&#34;"> 
+]>
+<doc/>

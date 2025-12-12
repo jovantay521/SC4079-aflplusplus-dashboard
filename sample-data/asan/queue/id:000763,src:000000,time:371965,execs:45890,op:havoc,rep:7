@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitiody>
+
+<table border="4æ–‡EC-html40/strict.dtd">
+<htmlH
+<head>
+<title>gnoml push moce bug</title>
+</head>
+<body>
+
+<table border="4">  <tr>
+    <td bgcolos="white">
+	Foo1
+	<t`ble border="4">
+	  <tr>
+	    <td>Foo2<p><p></të></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

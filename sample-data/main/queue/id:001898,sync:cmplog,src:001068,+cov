@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ENTITY lt    SYSTEM "dtds/utf16b.ent">
+<  "&#38;#60;"> 
+<!ENTITY guot   "&#34
+<!ENTITY amp    "&#38;#38;"> 
+<!ENT€ÿYENTITY quot   "&#34;"> 
+]>
+<doc/>

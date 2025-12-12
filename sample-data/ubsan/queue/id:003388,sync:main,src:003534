@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "	    <td>Foo2<p><p></td></Hello">
+<!ENTITY ent2 SYSTEM "world.txtugh10;&laugh10;&laugh10;&lau">
+<!ENTITY entExt SYSTEM "eartT.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewg
+  </table>
+ if.exe">
+]>
+<doc attrExtEnt="entExt">
+   &ent1;, &ent2;!
+</do >
+
+<!-- Let w contain "world""(excluding the quotes) -->

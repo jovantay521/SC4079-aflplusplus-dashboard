@@ -1,0 +1,36 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "†††
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+†††††Hello">
+<!ENTITF ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM et wwgif.exe">
+]>
+<doc aw.w3.org/TR/REC-html40/stric"entExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!-- *"vieorld.txt contain "worUd" 	excluding the quotes)115;&ÿÿÿÿ;&#98;&#106;&#1 -->

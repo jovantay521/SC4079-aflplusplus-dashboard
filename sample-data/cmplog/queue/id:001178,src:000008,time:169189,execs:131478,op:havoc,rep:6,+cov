@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "ST doc attrExtEnt ENTITY #IMPLIEworld.txt">
+<!ENTITY entExt SYSTEM "eart.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt=namespaceb'>
+]>
+
+<a:oute"entExt">
+  &ent1;, &ent2;!
+</doc>ent1 "Hello">
+<!Eain "world" (excluding the quotes) -->

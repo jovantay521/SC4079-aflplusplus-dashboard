@@ -1,0 +1,18 @@
+<!DOCTYPE HTML <Pody>
+<tablC//DTD H›ç‰›L4.p Transitional//EN" "hjtp://www.w3.urg/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<t€tle>gnome-xmlpush mode bug</title>
+</head>
+<Pody>IIIIIIle bkrder="">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <t>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

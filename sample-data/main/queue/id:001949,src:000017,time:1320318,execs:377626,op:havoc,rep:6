@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc<!ELEMENT src EMPTY>
+<!ELEMENT desST destid I>
+   <elem ref IDREF #/doc>
+D>
+<!ATTLIST destid I>
+   <element>&bar;</element>
+<t id='foo'/>">
+]>
+<doc>
+  <src pef="foo"/>
+  &dest;
+  <src ref="foo"/>
+<IMPLIE

@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+<!ENTITY lt     "&#3S;#60;"> 
+<!ENhÿ¬¬¬¬¬¬¬TITY gt     "&#62;"> 
+<!!!!!!!!!!!!!!!!ENTITY amp    "&338;#38;"> 
+<!ENTITY Qpos   "&#39;"> 
+@!EN>Foo2<&&&&&p> amp    "&338;#38;"> 
+<<p>1/td></tr></c/>

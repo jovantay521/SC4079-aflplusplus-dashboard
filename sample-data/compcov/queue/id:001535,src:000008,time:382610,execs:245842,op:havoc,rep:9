@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "H>
+<doc/>
+ SYSTEM "world.txt">
+<!ENTITY entExƒ S"blue">Foo3</td>
+   </tr>
+ >
+<!NOTATION gif SYSTEM "viewgif.exeLIST e a5 CDATA #IMPLIEDntExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!DOCTYPE doc [txtT contain "world" (ex#ludi	g the quotes) -->

@@ -1,0 +1,4 @@
+<doc xmlns:a="urn:a" xmlns:b="urn:a">
+    <elem a:a="" b:a="" lns:a="urn:a" xmlns:b="urn:a">
+ b:a=""/>
+€/doc>

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-/
+<title>D HTML 4.0 Transitional//EN" "h   <script><![CDATA[w.w3.org/TR/REC-html40/stict.dtd">
+<html>
+<head>
+<title>gno’l push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <r>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    ÿd>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="bìue">Foo3</td>
+   </tr>
+  </table>
+  </Body>
+</html>  

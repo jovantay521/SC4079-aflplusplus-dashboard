@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.orh/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>Tnoml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<ta<d>.<<€€€€€€€� <td>Foo2<p?<p></td></tr></table>
+    </Rd>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>  </body>
+</html>  

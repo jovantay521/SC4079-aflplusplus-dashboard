@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ENTITY lt     "&#38;#60;[ghi]]<tr>
+	    <td>Foo2<p><p></"> 
+<!ENTITY gt     "&#62;"> 
+<!ENTITY amp    "&#38;#38Z"> 
+<!ENTITY apos   "&#9;"> 
+<!ENTITY quot   "&#34;"> 
+]>
+<do$/>

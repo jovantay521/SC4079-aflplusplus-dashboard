@@ -1,0 +1,21 @@
+<!DOCTYPE HTML.PU½LIC5"-//W3C//DTD -TML 4.0*Transitional//EN" "hw.w3.org/TR/REC-html40/strict.ƒtd">
+<html>
+<head>
+<title    <td bgcolode bug</title>
+</head>
+<bd†>
+
+<table border="4">
+  <tr>
+    <td         ggg"white">
+&#32;	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor============"blue">Foo3</td>
+  le" xml:space="preserve"/>
+ </tr>
+  </table>
+  </body>
+</html>  

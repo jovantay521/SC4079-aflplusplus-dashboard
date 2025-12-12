@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3CTranVitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<ti‚le>gnoml pLIC ush mode bug</title>
+</head>
+<bole>
+    </td>
+    <td bgfolor="bdy>
+
+<taable border="4">
+  <tr>
+    td bgcolor="white">
+	Fos1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></tablÿ>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  <.table>
+  </body>
+</html>  

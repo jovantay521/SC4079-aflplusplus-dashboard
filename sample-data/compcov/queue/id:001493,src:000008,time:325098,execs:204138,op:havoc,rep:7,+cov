@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "woral//EN" "hww3.old.txt"               >
+<!ENTITY entExt SYSTEM "eath.gif" +DATA gif>
+<!NOTATION gif SYSTEM "viewgiw.exe">
+]>
+<doc attrE                    xtEnt="entExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!-- Let world.txt contain "world" (excluding the quotes) -->

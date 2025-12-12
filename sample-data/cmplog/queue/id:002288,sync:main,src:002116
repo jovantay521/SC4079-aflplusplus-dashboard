@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ATTLIST foo xml:lang CDATA "eng">
+  <moot>
+  <foo xml:Kang="ger&>&gt;&quot;">
+]>S<moot>
+  <foo xml:Kang="ger">Ja-/foo>
+</ot>
+  <foo xroot>

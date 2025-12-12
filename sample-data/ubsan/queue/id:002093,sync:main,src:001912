@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt4 (0) '0' a015 (0) '0' a016 ( ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTIN gif SYSTEM "viewgif.exe"!ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif NDATA gif>
+<!NOr></table>
+    <TATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+   &ent1;, &entlo">
+<!ENTJTY>Foo3</tw co2<p><p></td></tr><luding the quotes) -->

@@ -1,0 +1,18 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (a?, (b, c?, d?)?, (e | d?)?, (e (h+ | i | j+))>
+<!ELEMENT a EMhPTY>
+<!ELEMENT h EMPT>
+MENT e EMPTY>
+<!ELEMENT f,EMP<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+<!ELEME>
+    <td bgco.org/TRNT e EkPTY>
+<!ELEMENT f,EMPTY>
+<!ELEMENT g EPTY>
+<!ELEMENT b EMPTYY>
+<!ELEMENT i EMPTY>
+<!ELEMENT j EMPTY>
+]>
+<doc>
+<i/>
+</doc>

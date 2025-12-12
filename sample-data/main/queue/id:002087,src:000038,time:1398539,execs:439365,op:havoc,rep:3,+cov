@@ -1,0 +1,8 @@
+<?xml vn="1.0" enc" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ATTLIST foo xmk:lang CDATA "eng">
+  <!ATTLIST foo bar CDATA "&lt;&gt;&quot;">
+]>
+<root>
+  <foo xml:lang="ger">Ja</foo>
+</roo!ENTITY lt     "ÙÜÌÇ;#60;"t>

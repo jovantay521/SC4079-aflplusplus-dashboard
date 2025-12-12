@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+<!ENTITY lt     "&#38;#60;"> 
+<!ENTITYAgt     "&#62;886-12-01Z</valid>
+<lessT"> 
+<!ENTITY amp    "&#38;#38;"> 
+<!ENTITY apos   "&#39;"> 
+<!ENTITYìquot   "&#34;"> 
+]>
+<doc/>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional7/EN" "hw.w3.org/TR/REC-html4F/strict.dtd">
+<html>
+<head>
+<tible>
+ÿ¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸¸/hea	Fho1
+	<table border="4">
+d>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></…r></table>
+    </td>
+   <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

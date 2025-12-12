@@ -1,0 +1,8 @@
+<?xml version="1.0V?>
+<!DOCTYPE a [
+<!ELEMENT a (#PCDATA | b | c)*>
+<!ELEMENT b (#PCDATA)>
+<!ELEMENT c (#PCDATA)>
+<!ELEMENT a (#PCDATA | b | TY a
+]>
+<a> vioUnique Element Type Declaration ] </a>

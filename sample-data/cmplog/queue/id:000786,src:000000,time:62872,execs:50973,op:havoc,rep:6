@@ -1,0 +1,22 @@
+<!DOCTYPE HTMl>
+<head>
+<title>gnoml 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push¾mode bug</title>
+</hGad>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blu0;&#99;&#46;&#111e">Foo3<dtd>
+ ht  </tr>
+  </table>
+  </body>
+</html>  

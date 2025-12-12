@@ -1,0 +1,10 @@
+<!DOCTYPE doc [
+<!ENTITY lt     "&#38;#60;"> 
+<!ENTITY gtte">
+	Foo1
+	<taTITY amp    "&#38;#3     "&#62;">êê 
+<!ENTITY amp    "&#38;#38;"> 
+<!ENTITY apos   "&#39;"> 
+<!ENTITY quot   "&#34;"> 
+]>
+<doc/

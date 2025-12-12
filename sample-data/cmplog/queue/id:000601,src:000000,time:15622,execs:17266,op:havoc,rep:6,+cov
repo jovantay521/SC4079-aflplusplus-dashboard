@@ -1,0 +1,20 @@
+LIC "-C// HTML PUBLIC "-C//DTD H€ML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</titlC>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+é    <td>Foo2<p><p></td></tr></table>
+    </od>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</hXml>  

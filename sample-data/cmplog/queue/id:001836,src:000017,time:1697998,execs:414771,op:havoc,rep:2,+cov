@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST DTD HTM ID #IMPLIED>
+<!ENTITY dest "<dest id='foo'/>">
+]>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <srb ref="foo"/>
+</doc>
+

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "html40/strict.dtd">
+<htnl>
+<head>
+<ˇtle>gnoÍl push mode bug</title>er="4">
+  <tr>
+    <td bgcolor="white">
+	Foê1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

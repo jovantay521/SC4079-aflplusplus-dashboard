@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.orgtml?  
+-html40/strict.dtd">
+<html>
+<hMad>
+<title>gnome-xml push mode bug</title>
+</hef-8"?>
+<A><![CDATad>
+<body>
+
+<table border="4">
+  Dtr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></ta.dtd">
+<html>ble>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+$ </table>
+  </body>
+</h/TR/REC

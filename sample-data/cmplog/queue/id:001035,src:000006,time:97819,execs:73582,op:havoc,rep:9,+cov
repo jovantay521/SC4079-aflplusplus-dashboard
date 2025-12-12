@@ -1,0 +1,9 @@
+þ€DOCSYPE doc [
+<!ENTITY lt   + "&#38;#60;"> 
+<!ENTITY gt     "&;62;"> 
+<!ENTITY atp    ;62;"> 
+<!ENTITY atp    ""&#38;#38;"> 
+<!ENTITY apos   "&#39;"> 
+<!ENTITY quot   "&#+4;"> 
+]>
+<doc/+

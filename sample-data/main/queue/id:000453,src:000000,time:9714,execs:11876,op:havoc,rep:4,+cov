@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http:ers">
+      <rng:ref name0/strict.dtd">
+<html>
+<head>
+<title>gnome-xml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>FÅo2<pISO-8859-1"?>
+<xable>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  <Gbody>
+</html>  

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitiona
+	  <tr>
+	   .org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>>>>>>>>>
+<body>
+
+<table border="4"="urn:foo">
+    <a b=>
+  <tr>
+    <td bgcolor="whit long comment
+long comte">
+	Foo1
+	<table Norder="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </.t
+long comte">

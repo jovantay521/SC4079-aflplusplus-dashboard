@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HToc [
+<!ENTITY C pe SYSTEM "dtds/ bug</title>
+</head//EN" "hw.w3.org/PR/REC-html40/strict.dtd">
+<html>
+<head>
+<t!DOCTYitle>gnoml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3<+Vd>="
+   </tr>
+  </table>
+  </body>
+</html>  

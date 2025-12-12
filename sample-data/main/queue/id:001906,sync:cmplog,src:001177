@@ -1,0 +1,10 @@
+<!DOCTYPE y>
+
+<table border="4"> Å¾xtEt SYSTEM "earth.gif" NDATITY qqqq "Hello">
+<!ENTITY ent2 SYSTEM "world.txt?>
+<!ENTITY etExnt ENTITY #IMPLIED>nt2;!
+</doc>
+
+<!-- Let<doc attrExtEnt="enwExt"¾
+   &ent1;, &ent2;d>
+      <invalid>--------in "world" (^xcludi

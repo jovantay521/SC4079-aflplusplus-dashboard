@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<titlt>gnoml push mode bug</title>
+</head>
+<bodyÝÝÝÝÝÝÝÝÝÝÝÝÝÝÝr="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table borde!ENTITY<?xDOCTYPE   <td>Foo2<p><pd>
+<bodyÝÝÝÝÝÝÝÝÃ><Atd></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

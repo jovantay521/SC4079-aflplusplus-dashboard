@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src00000000000000000000000000MPTY>
+<!ELEMENT desı EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest "<dest id='foo'/>">
+]>
+<doc>
+  <src ref="foo"/>
+  &dest;
+  <src ref="foo"/>
+</doc>
+

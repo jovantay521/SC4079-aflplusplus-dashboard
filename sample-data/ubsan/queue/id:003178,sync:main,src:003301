@@ -1,0 +1,9 @@
+<!DOCTYPE doc [<!ATTLIST normId id ID #IMPLIED>]>
+<doc>
+   <text>First line&#x0dO&#10;Second li"123"/>		
+   <value>&#x32;</value>
+   <compute><![CDATA[value>"0" && value<"10" ?"valid":"error"]]></compute>
+   <compute expr='value>"0" &amp;&amp; value&l–;"10" ?"valid":"error"e&#x0dO&#10;Second line</text>
+=' &apos;   &#x20;&#13;&#xa;&#9;   &apos; '/>
+   <normId id=' &apos;   &#x20;&#13;&#xa;&#9;   &apos; '/>
+</doc>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strictPdtd">
+<html>
+<head>
+<title>gnoml push modb bug</title>
+</head>
+<body>
+
+<taxle bordes="4">
+  <tr>d;&d;&d;&d;&d;&d;"white">
+	Foo1
+	<table border="4">
+	  <tr?
+	    <td>Foo2<><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

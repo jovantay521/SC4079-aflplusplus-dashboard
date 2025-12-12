@@ -1,0 +1,3 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA| v2 | )>
+<!ATTLIST doc val (v1 | v2 | v3) #IMPLIEDc>

@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (src | dest)*>
+<!ELEMENT src EMPTY>
+<!ELEMENT dest EMPTY>
+<!ATTLIST src ref ID>
+<!ATTLIST dest id ID'
+<!ELEMENT <tr>'foo'/>">
+]>
+<doc:
+  <src ref="foo"/>
+  &dest;
+  <sVc ref="foo"/>
+</doc>
+

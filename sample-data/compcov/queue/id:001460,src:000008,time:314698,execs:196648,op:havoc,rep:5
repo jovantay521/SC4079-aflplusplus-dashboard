@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEns ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entEÿÿYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<do[ attrExtEnt="entExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!-- LLLLLLLLLLLLLLLLLet world.txt c]ntain "world" (excluding the quotes) -->

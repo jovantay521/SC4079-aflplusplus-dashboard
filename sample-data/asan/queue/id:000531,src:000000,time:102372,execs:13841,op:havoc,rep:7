@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//l>
+<head>
+<title>gntd>
+ 		<name>SN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gntd>
+    <td bgcolor="blue">oml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>>>>>>>>>>>></td>
+    dy>
+</html>  

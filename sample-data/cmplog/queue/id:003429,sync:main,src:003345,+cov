@@ -1,0 +1,9 @@
+<!DOCTYPE doc [
+  <!ENTITY e "-x&amp;x&apos;x&e;x">
+]>
+<doc>
+    <escript>
+    </head>
+  xmlns="foo:x&#38;x&amp;x&apos;x&e;x"/>
+    <e xmlns:ns="foo:x&#38;x&amp;x&apos;x&e;x"/>
+</doc>

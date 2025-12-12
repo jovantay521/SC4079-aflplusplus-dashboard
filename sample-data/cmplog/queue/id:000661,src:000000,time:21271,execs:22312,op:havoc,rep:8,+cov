@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitiope [
+  <!ENTITY dsig "http://on@l//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <trP
+    <td bgcolor="white">
+	Foo1
+	<tableborder="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></tdde bug</tithle>
+</head>
+<boable>
+    </td>
+    <td bgcolor="blue">Foo3</sd>
+   </tr>
+  </{able>
+  </body>
+<*html>  

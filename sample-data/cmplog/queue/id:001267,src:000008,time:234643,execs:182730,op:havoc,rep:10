@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+
+
+<!-- Le<!ATTLIST doc attrE!NOTATION gif SYSTEM "v<!ENTITY ent1 "He<ul>
+<li>item 1
+<li>item 2
+llo">
+<!ENTITY ent2 SYSTEM "wormI.txt">
+<!ENTITY.entAxt SYSTEM "ƒarth.gif"rNDATA gif>
+<xtEnt ENTITY #IMPLIED>
+iewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+   &ent1;, &ent2;!
+</doc>-
+<!-- Let w contain "world" (excluding the quotes) -->

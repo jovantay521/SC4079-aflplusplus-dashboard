@@ -1,0 +1,7 @@
+<?xml version="1.00070000" encoding="UTF-8"?>
+<!DoCTYQE root [
+  <!ATTLIST foo xml:lang CDATA 3eng">
+  <!ATTLIST fffffffffffffffffffffffffffffffff>
+<root>
+  <foo xml:l€ÿg="ger««««««">Ja</foo>
+</root>

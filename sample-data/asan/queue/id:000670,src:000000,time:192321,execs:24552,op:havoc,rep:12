@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TrLnsitional//Ep" "hw.w3.org/TR/REC-html40/stct.dtd">
+<html>
+<head>dtd">
+<html>
+<head>
+<itle>gnoml push mode bug</title>
+</head>
+<body>
+
+<table bord.org/TR/REC-html40/sttttttttttttttttttttttttttbgchtml>
+<head>
+<titleolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	  "/>
+<err xmp><p></td>"`lue">Foo3</td</tr></table>
+    </td;&d;&d;&d;&dd>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

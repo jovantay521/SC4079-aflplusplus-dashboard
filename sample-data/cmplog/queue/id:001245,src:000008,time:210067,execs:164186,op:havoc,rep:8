@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEn<td><td><!-- <a><b> -->
+t ENTITY #IMPLIED>
+<!ENTITY ent1"Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "eartè.gif" NDATA gif>
+<!NOTATIiN gif SYSTEM "vie ent1 "Hello">
+<!ENTITY ent2 S"entExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!-- L]t w containnnnnn "world" (excluding the q>
+<!ENTITY ent2 S"entExt">uotes) -->

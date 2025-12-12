@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #FIMIMPD>
+<!ENTIfY ent1 "Heelo">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY%entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM 2vidwgif.exe">
+]>
+ÿÿocent1;, &ent2UeZtExt">
+   I                 
+   
+
+<!-- Let world.txt contain "world" (excluding the quotes) -ÿ

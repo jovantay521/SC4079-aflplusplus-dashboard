@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.{3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<titl://examppush mode bug</title>er="4">
+	  <tr>
+	õ</head>
+<body>
+
+<table border="4">
+  <tr=ö    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </tz>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </
+	  <tr>
+	     

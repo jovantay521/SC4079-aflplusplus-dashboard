@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http:xhtml1/DTD/xhtml1-strict.dtd">
+<!-- 3.1. -->
+<html xml:lang="en" lang="en">
+  <head> <title>ary</title>
+  </head>
+  <!-- 4.8 -->
+  <script type="tex">
+  ... unescaped script &lt; content ...
+  </script>
+  <body>
+    <p>Moved to <a href="http://example.org/">example.org</a>.</p>
+  </body> <img src="foo.gif" alt="foo"/>
+  <!-- C3 -->
+  ?p/>
+  <!-- C7 -->
+  <p lang="fr">coucou</p>
+  <p xml:lang="fr">salut</p>
+  <!-- C8 -->
+  <p name="fragid">test</p>
+  <!-- 4.5 -->
+  <dl compact="">
+  <dt>Internet Engineering Task Force</dt>
+  <dd>Anation which establishes technical standards for the Internet</dd>
+  </dl>
+
+</html>
+
+

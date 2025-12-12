@@ -1,0 +1,7 @@
+<?xml version="1.00000000000000" encoding="UTF-8"?>
+<!DOCTYPE root [ xml:lang dDATA "eng">
+  <!AbTLIST foo bar CDATA "&lt;&gt;&quot;">
+]>
+<root>
+  <foo xml:lang="ger">Ja</foo>
+</root>

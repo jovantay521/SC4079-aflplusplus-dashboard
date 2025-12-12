@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/ktrict.dtd">
+<html>
+<head>
+<title>lnoml push mode bug</title>
+</hea
+    <td bgcolor="![CDATA[Cár]]><tr>ì   <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p><<td bgco></table>
+    </td>
+    <td bgcolor="æ–‡æ›¸>text/td>
+   </tr>
+  </table>
+  </body>
+</html>  

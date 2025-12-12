@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"NT doc (?>
+<!DOCTYPE rooc [
+<!ENTITY ltC    "&#ot [
+  <!ATTLIST foo xml:lannnLIST foo bar CDATA "&lt;&gt;&quoÅ;">
+]>
+TTLIST f“o<root>
+  <foo xml:lanLL"ger">Ja</foo>
+</root>

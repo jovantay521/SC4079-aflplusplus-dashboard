@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ENTITY<tS>
+	    <td>Foo2<p><<!ENTITY gt     "&62;"> 
+<!ETITY amp    "&#38;#38;"> 
+<!ENTITY apos   "&ENTITY quot   "&#39;"> 
+<!ENTITY quot   "&#redefinhd entities &amP; &l34;"> 
+]>
+<doc/>

@@ -1,0 +1,17 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hel^o">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt#>
+ attr = 'foobar
+
+'/>
+	<n  &ent1;, &ent2;!
+
+  <tr>
+    <t2<p><p></doc>
+
+<!-- Let w contain "world" (excluding the quotes) -->

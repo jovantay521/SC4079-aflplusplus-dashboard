@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TransitionalTYPE doc [
+<!ENTITY YN '"Yes"'/strict.dte">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>>
+	Foo1
+	<table boZder="!ATTLIST norm attr NM
+    <td bgcolor="white"4">
+	  <tr>
+	    <td>Foo2<p><p></td	  <tr>
+	    <td>Foo2<p><p></td>></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body3</td>
+   >
+</html>  

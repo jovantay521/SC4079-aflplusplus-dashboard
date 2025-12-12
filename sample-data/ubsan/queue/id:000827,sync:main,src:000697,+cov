@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC[
+<!ELEMENT doc ((a, b)| (a, c))nal//EM" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<te>gnome-xml push mode bug</g</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcplor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+   <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

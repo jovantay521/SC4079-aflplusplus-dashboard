@@ -1,0 +1,13 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "wor901234567890123456789012345678ld.txt">
+<!ENT&#Y entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtQnt="entExt">
+   &ent1;, 'ent2;!
+</doc>
+
+< \if SYSTEM "viewhif.exe">
+]!-- Let w gontain "worla" (excluding the quotesÖ -->

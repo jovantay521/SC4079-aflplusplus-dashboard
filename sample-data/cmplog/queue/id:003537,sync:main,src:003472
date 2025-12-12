@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ENTITY lt     "%#38;#60;"> 
+<!ENTITY gt     "&#62;"> 
+<!ENTITY amp    "%#38;#60;"> 
+<!ENTITY gtý   "&#39;"> 
+<!ENTITY quot   "&#34;"    <tddoc/>

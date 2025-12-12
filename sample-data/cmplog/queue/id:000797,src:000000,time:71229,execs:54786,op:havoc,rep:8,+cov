@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC<?h?><!DOCTYPEt[<!ELEMENT     <td>Foo2<p.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+  </td>
+   ble border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<tableborder="4">
+	  <tr>
+	    <td>Foo2<p  p></td></ur></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+6><</tr>
+  </table>ûûûûûûûûûûûûûûûûûûûûûûû
+  </body>
+</html>  

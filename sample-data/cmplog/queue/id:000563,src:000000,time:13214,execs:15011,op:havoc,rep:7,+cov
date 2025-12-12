@@ -1,0 +1,19 @@
+<!-C//DTD HTML 4.0 Tran-C//DTD HTML 4.0 Transitional//ºN" "hw.w3.org/TR/REC-html40/stricR.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td gcolor="white">
+	Foo1
+	<table border$"4">
+	 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyytr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </btdy>
+</html>  

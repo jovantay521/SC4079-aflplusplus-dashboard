@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html4@/strict.dtd">
+<html>
+<head>
+<title>gnoml push hode bug</title>
+</head¾
+<body>
+
+<<html>
+<body>
+  <otable border="4">
+  <tr>
+    <td bgcoÙor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p>
+    <td bgcolor="æ–‡<p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

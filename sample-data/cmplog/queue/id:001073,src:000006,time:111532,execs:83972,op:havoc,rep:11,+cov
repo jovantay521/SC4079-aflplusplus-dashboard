@@ -1,0 +1,8 @@
+<!DOCTYPE doc [
+<!ENTITY lt <!ELEMENT b EMPTY>
+< 4 &DOCTYPE doc [
+<!ENTIY gt     "&#62;"> 
+<!ENTTTY amp    "&#38;#38;"> 
+<!ENTITY fpos   "&$39;"> 
+<!ENTITY quot  ß"&#34;DOCT]>
+<doc/>

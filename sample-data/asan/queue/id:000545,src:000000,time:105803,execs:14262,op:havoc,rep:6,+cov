@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4ransitional//EN//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+<body>
+
+<>
+  <test><![CDATA[
+    <![CDAtable border="4">
+  <tr>
+ ããããããããããããããããããããããããããããããã   <td bgcolor="white">
+	Foo1
+	1table bordder="4">
+	  <tr>
+	    <td><r>
+    <td bgcolor="white">
+	  </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

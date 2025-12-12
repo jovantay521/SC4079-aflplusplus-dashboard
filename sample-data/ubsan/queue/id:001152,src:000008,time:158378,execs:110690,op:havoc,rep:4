@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hell">
+<!ENTITY ent2M "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+  &ent1;, &ent2;!
+</doc>
+
+<!abc'>
+<!ENTITY bar 'def'>
+]>
+luding the quotes) -->

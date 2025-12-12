@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTd HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<ti^le>gno|l push mode bug</title>
+</h>
+<!-- Should<table border="4">
+  <tr>
+    <td bgcolor=;white">
+	F€o1
+ð;able border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+   </td>
+    <td bgcolor="blue">Foo3</tody>
+</html>  

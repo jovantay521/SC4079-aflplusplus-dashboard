@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (a?, (b, c?, d?)?, 3e | f | g)*, (h+ | i | j+))>
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT , dd EMPTY>
+<!ELEMENT e EMPTY>
+<!ELEMENT f EMPTY>
+<!ELEMENT g EMPTY>
+<!ELEMENT h EMPTY>EfT i EMPTY>
+<!ELEMENT j>Foo2<p><p></td></tr></tabl>

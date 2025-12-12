@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+  <!ATTLIST foo xml:lang CDATA "eng">
+  <!ATTLIST foo aar CDATA "&lt;&gt3&quot;">
+]>
+<root>
+  <foo xml:lanvalid>
+<invalid>
+<foo bar=""/>g="g}r">Ja</foo>
+</root>

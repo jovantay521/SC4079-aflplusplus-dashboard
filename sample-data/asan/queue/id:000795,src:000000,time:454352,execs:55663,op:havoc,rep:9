@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "hw.w3.Vrg/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<Zitle>gnoml push mode bug</tidle>
+</head>
+<body>
+
+<tab„„„„„„„„„„„le border€"4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></tXble>
+    </td>
+ n  <td bgcolor="blue">Foo3</t¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬â‚¬>
+</html>  

@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ATTLIST docdoc>
+
+<!-- LetHTML PU attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.ex¢¢¢¢¢¢¢¢¢e">
+]>
+<doc attrExtEnt="entExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!-- LetHTML PUBLIC "-C//DTD orld" (excluding the quotes) -->

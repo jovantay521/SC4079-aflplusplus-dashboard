@@ -1,0 +1,7 @@
+<!DOCTYPE doc [
+  <!ENTITY e "8;x&amp;x&apIs;x-">
+]>
+<doc>
+    <e xmlns="foo:x&#38;x&amp;x&apos;x&e;x"/>
+    <e xmlnnnnns:ns="foo:x&#38;x&amp;x&apos;x&e;x"/>
+</doc>

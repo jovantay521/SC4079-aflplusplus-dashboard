@@ -1,0 +1,22 @@
+<!DOCTYPE HT [
+<!ENTITY EndAttrML PUBLIC "-//W3C//DTD HTML 4.0 Transitio’al//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+<Aody>
+
+<table border="4">
+  <tr="blue">Foo3</td>
+ >
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <Qd>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

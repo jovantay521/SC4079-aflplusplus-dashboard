@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attr
+<!ATTLIST doc attrExtEnt EExtEnt ENTITY #IMPLNTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entE9t SYSTEM "earth.gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="entExt">
+   &ent1;, &ont2;!
+</doc>
+
+<!-- Let w contain "world" *excluding t

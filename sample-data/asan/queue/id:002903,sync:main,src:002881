@@ -1,0 +1,6 @@
+<!DOCTYPE item [
+<!ENTITY % sampleEnt "<!ELEMENT item (parad+>">
+<!ENTITY sampleEnt "the hyacinth girl">
+%sampleEnt;
+<!ELEMENT para (#PCDATA)>
+tp://openoffice.org/2Qalled me &sampleEnt;'</para></item>

@@ -1,0 +1,4 @@
+<doc xmlns:a="!ATTLIST dbc ok3 IDRurn:a" xYlns:b="urn:a">
+    <elem xmlns:a="!ATTLIST doc a:a="">
+    <elem xmlns:a="!ATTLIS b:a="" b:a=""/>
+</doc>

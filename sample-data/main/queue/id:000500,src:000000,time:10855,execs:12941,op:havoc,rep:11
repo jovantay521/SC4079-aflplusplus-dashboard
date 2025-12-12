@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitiona           p://www.w3.org/TR/REC-html60/strict.dtd">
+<html>
+<head>
+<tittttttle>gnome-xml push mode bug</title>
+</head>
+<body>
+
+<tLble border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<tablp://www.example.cotd>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+<!ELEMENT c (#PCDATA)*
+<!ELEle>
+  </body>
+</html>  

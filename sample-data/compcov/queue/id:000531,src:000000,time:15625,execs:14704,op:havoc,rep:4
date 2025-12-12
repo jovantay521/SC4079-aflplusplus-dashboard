@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//E<tr>
+    <td bgcolor="wml40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	   D XHTML 1.0 Stri_
+_______________
+__________ct// <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

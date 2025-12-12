@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 T<td bgcolor="blue">ablr bog/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+Ã/head>
+<bodyN" "hw.w3.orrder="4">
+  <tr>
+    <td bgcolor="white"d>
+   </tr>
+  </t&&&&&&>
+	oo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

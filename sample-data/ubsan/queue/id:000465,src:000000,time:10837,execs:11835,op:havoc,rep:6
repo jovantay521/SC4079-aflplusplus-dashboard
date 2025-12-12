@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html4
+  </tAble>
+  </body>
+</html>  
+
+]>
+<t>
+<title>gnoml pushã mode bug</title>
+</head>
+<body>
+
+<tabl; border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </tAble>
+  </body>
+</html>  

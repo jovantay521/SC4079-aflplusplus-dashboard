@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.t/>
+xt">
+<!ENTI "viewgif.exe">
+]>
+<doc attr NDATAgif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<doc attrExtEnt="erder="4 HTML PUBLIC "-C0>
+	  <tntExt">
+   &doUÿ
+<!--if SYSTEM "viewgif.exe">
+]> Lec w contain "world" (excluding tve quotes) -->

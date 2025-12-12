@@ -1,0 +1,6 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=/home/jovan/fuzz/xmllint-asan
+AFL_CUSTOM_INFO_PROGRAM_ARGV=@@
+AFL_CUSTOM_INFO_OUT=/home/jovan/fuzz/out/asan
+# command line:
+'afl-fuzz' '-S' 'asan' '-i' '/home/jovan/fuzz/in' '-o' '/home/jovan/fuzz/out' '--' '/home/jovan/fuzz/xmllint-asan' '@@'

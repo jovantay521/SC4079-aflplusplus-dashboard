@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-htšl40/strict.dtd">
+<html>
+<head>
+<title>gnomush mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <‹r>
+    <td ‚gcolor="white">
+	Foo1
+	abc]]]>]&gt;</td>>
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

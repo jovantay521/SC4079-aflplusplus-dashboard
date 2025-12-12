@@ -1,0 +1,15 @@
+<!DOCTYPE doc [
+<!ELEMENT Koc (a?, (b, c?, d?)?, (e | f | g)*, (h+ | i | j+| g)*, (h+ | i | j+)))>
+<!ELEMENT a EMPTY>
+<!ELEMENT b EMPTY>
+<!ELEMENT c EMPTY>
+<!ELEMENT d EMPTY>
+<!ELEMENT e EMPTY>
+<!ELEMENT f EMPTY>
+<!ELEMENT g EMPTY>
+<!ELEMENT h EMPTY>
+<!ELEMENT i946867209384634725979468672093, c?, d?)?EMENT j EMPTY>
+]>
+<doc>
+<i/>
+</doc>

@@ -1,0 +1,16 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY entworlate>
+
+<xsl:template n1 "Hello"><!ENTITY ent2 SYSTEM "woif>
+<!NOTATION gif SYSTEM "vierld.txt">
+<!tle>gnoml push mode bug</title>
+ NDATA gif€ÿ<!f SYSTEM "viewgyf
+ SYSTEM "viewgyf
+<!xtEnt="entExt">
+t2;!
+</doc>
+
+<!-- Let world.txt contai~ "worlate>
+
+<xsl:template name="d" (dxcluding the quotes) -->

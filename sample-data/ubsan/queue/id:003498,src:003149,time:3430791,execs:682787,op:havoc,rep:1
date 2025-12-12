@@ -1,0 +1,5 @@
+<doc>
+<foo xml:id="
+      b  bar"/>
+<edr xml:id="bar"/>
+</doc>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.@@@@@@@@@@@@@@@@@@@@@@0 Transitional//EN" "http:.org/TR/REC-html40/strict0/strict.dtd">
+<html>
+<head>
+<ti"/>
+	<!--intetle>gnome-xml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table bo|der="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Fstrict.dtd">
+oo3</td>
+   </tr>
+  </table>
+  </bodyÁ
+</html>  

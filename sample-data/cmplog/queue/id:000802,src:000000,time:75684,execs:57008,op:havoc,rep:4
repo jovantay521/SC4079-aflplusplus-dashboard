@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gush mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <trR
+    <td bgcolor="white">
+	Foo/title>
+</head>
+<body>
+
+<tabl
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</____
+____________td>
+   </tr>
+  </table>
+  </body>
+</html>  

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HNML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<heas:simpleType name="tfoo">
+  <</title>
+</head>
+<bodyÿ
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<xable border="4">
+	  <tr>
+	    <td>Foo2<p><p></td<table border="4">
+  <tr>
+   ></tr></table>
+    </td>
+    <td btcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

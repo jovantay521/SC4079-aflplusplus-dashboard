@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transic [
+<!ATTLIST doc a1 NMTOKENS " tional//EN" "hw.w3.orgbTR/REC-html40/strict.dtd">
+<html>
+<head>
+<titleN" "hw.w3.orgbTR/RE>gnoml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td /gcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

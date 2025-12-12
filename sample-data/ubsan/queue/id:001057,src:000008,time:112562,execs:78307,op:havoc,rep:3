@@ -1,0 +1,11 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entExt SYSTEM "earth.gif" NDATA g>
+<xs:NOTATION gif SYSTEM "viewgif.exe">
+]>ing the quotes
+<doc attrExtEnt="ent/REC-html40/strict.dtd">
+<htoc>
+
+<!-- Let w contain "world" (excluding the quotes) -->

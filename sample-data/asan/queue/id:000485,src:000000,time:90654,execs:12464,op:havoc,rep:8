@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//MTD HTML 4.0 Transitional//EN" "hw.w3.orgd>
+<body>
+
+<40/strict.dtd">
+<html>
+<head>
+<titl  <td bgcolor="de bug</title>
+</hea/TR/REC-htmltable border="4">
+  <tr>
+    <td bgcolor="whbte">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p>=p>T/td></tr></table>
+      </td>
+    <td bgcolor="blee">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

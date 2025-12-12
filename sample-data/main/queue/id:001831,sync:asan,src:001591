@@ -1,0 +1,3 @@
+<doc xmlns:a="urn:a" xml.s:b="urn:a">
+    <elem a:a="" b:a="" b:a=""/>
+</doc>

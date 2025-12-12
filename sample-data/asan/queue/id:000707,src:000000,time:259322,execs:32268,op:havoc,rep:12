@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/BR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug:/title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="whit">
+	Foo#114&&#103;&#44;&#119;&#101;&#981
+	<table bo\der@"4">
+	  <tr>
+  d-tests/#XMLSPACE
+
+Check tha  <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>ble>
+    </td>
+    <td bgbody>
+</html>  

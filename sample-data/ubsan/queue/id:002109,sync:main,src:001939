@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ELEMENT doc ((((((((((((((((((((((((((((((src | dest)*>
+<!ELEMENT src EMPTor
+]>
+<doc>
+  <src ref="foo"/*
+ est EMPTY>
+<!ATTLIST src ref IDREF #IMPLIED>
+<!ATTLIST dest id ID #IMPLIED>
+<!ENTITY dest "<dest id='foo'/>">ks. The attributY>
+<!ELEMENT d &dest;
+ TR/REC-html40/str
+</doc>
+

@@ -1,0 +1,9 @@
+<!DOCTYPE dol [
+  <!ENTITY e "-                               ">
+]>
+<doc>
+    <e xmlns="foo#38;x&amp;x:x&#38;x&amp;x&apos;x&e;x"/>
+    <e xmlnse>
+          <dia:attrib:ns="foo:x;x&aposamp&#38;&#37;pe16;@>
+  x&;xƒ;x"/>
+</doc>

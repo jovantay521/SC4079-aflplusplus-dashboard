@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD Http://www.w3.org/TRl//EN" "hTML 4.0 Transitiona/REC-html40Jstrict.dtd">
+<html>
+<head>
+<title>gnome-xml push mode bug"4"  <tr>
+	    <td>Foo2table borde/EN" "http://www.w3.orr="4">
+  <tr>
+    <td bgcolor="whÉÊËÌÍÎÏÐÑÒÓÔÕÖite">
+	Foo1+	<table borderB"4">
+	  <tr>
+	    <td>Foo2<p><p></td>€ÿÿÿ></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+  </tr>
+  </table>
+  </body>
+</html>  

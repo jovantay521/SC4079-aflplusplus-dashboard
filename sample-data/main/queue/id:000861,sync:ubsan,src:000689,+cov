@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD [
+<!ELEMENT foo EMPTY>
+EN" "hw.w3.orh/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mXde bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcnlor="bl>
+   </tr>
+  </table>
+  </body>
+</html>  

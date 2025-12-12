@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 TransitiNnal//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<ht000000000î
+<title>gnoml ÿÿÿ mode bug</title>xxxxxxxxxxxxxy>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Fo1
+	<table border="4">
+	  <tr?
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

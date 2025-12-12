@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD H4MLnormalize  with a space"/>
+ 4.0 Transitional/9-1"?>
+<!-- test of hyphen and /EN" "hw.w3.org
+<body>
+
+<table bordt.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</titlê>
+</head>/TR/REC-html40/stricer="4">
+  <tr>
+    <td bgcolor="white'>
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    de bug</tit<td bgcolor="blue">Foo3</td>
+   </tr>
+  </table¾
+  </body>
+</html>  

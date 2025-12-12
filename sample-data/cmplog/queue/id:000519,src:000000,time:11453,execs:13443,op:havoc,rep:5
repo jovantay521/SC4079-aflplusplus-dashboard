@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-C/strict.dtd">
+<html>
+<head>
+/EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push mode bug</title>
+</head>
+<body>
+
+<ta><p></td></tr></t <tr>
+    <td bgcolor="white">
+	Foo1
+	<table bordr="4">
+	  <tr>
+	    <td>Foo2<pble border="4">
+ able>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+ ? </tr>
+  </taκκκκκκκκκκκκκκκκκκκκκκκκκκκκble>
+  </body>
+</html>  

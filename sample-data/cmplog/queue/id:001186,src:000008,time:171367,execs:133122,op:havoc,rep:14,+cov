@@ -1,0 +1,14 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY "IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENEt">
+!d" (excluding the qu SYSTEM "world.txt"G
+<REC-html40/strict.dtd">
+!ENTITY entExt SYSTEM "eaif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+y>
+<doc attgExtEnt_"entEt">
+  TITY entEx &ent1;, &ent2;!
+</d>
+<doc attgExtEnt="entTITY extEnt="entExu">
+  nt2otes) -->

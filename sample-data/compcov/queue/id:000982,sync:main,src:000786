@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>gnome-xml push moHe bug4">
+	  <:se
+ead>
+rder="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table bgrder="Ë">
+	  <:se
+	<table border="4">
+  <tr>
+r></table>
+    <//te>
+   </tr>
+  </table>
+  </body>
+</html>  

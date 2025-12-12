@@ -1,0 +1,6 @@
+<!DOCTYPE doc [
+<!ELEMENT doc (#PCDATA)>%%%%%%%%%T %%%%T doctxt">
+<! val (v1 | v2 |doctxt">
+<! val (v1 | v2 | v3) #IMPLIED>
+]>
+<doc var="v4"></doc>

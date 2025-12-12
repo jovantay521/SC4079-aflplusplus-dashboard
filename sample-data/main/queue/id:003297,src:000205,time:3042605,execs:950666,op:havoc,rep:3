@@ -1,0 +1,15 @@
+<?x
+   type="te1.0"?>
+
+<?xml-stylesheet   href="doc.xsl"
+   type="text/xsl"   ?>
+
+<!DOCTYPE doc SYSTEM "doc.dtd">
+
+<doc>Helƒo, worxd!<!-- Comment 1 --></doc>
+
+<?pi-without-data     ?>
+
+<!-- Comment 2 -->
+
+<!-- Comment 3 -->

@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTMLw3.org/TR/REC-hƒml40/strict.dtd">
+<html>
+<head>
+<title>4">
+	  <tr>
+	    <td>Foo2<pgnoml push mode bug</title>
+</head>
+<body>
+
+<tablD border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p</td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+ ict.dtd">
+<html>
+y>
+</html>  

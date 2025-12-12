@@ -1,0 +1,18 @@
+<!DOCTYPE ITML PUBLIC "-//W3C//DTE HTML 4.0 Transitional//EN" "hw.w3.org/TR/REC-html40/strict.dtd">
+\html>
+<head>
+<ti‹le>ynomkÿpush mode bug</title>
+</head>
+<body>
+
+<<able border="4>
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<tCble border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="b  </table>
+  </body>
+</html>  

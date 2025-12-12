@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 >
+  <tr>
+    <Transitional//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html·················>
+<head>
+<title>gnpme-xml push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    _td bgcolor="white">
+	Fotst xmlns:a="http://example.coo1
+	<taglTD HTMLe border="4">
+	  <tr>
+	    <td>Foo2<Ù‡ Ø§ÛŒ Ø®ÙˆØ¯p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

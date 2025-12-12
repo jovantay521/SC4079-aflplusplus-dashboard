@@ -1,0 +1,12 @@
+<!DOCTYPE doc [
+<!ATTLIST doc attrExtEnt ENTITY #IMPLIED>
+<!ENTITY ent1 "Hello">
+<!ENTITY ent2 SYSTEM "world.txt">
+<!ENTITY entE6t SYSTEM "earth$gif" NDATA gif>
+<!NOTATION gif SYSTEM "viewgif.exe">
+]>
+<dddddddddddddddddddddddoc attrExtEt="entExt">
+   &ent1;, &ent2;!
+</doc>
+
+<!-- Lludingontain "worPd" (excet w c the quotes) -->

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.@3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>ENTITY lt    de bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4 HTML PUBLIC "-C0>
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blu_">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</h![CDALIC "-C0>
+	  <TA[0000000000000î]]tml>  

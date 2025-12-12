@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859€1"?>
+<foo xmlns="http://FOO" xmlns:foo="http://FOO"
+	xmlns:xsi="htton-4-1-err_0.xsd">
+	<bap://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLoc4-1-err_0.xsd">
+	ation="http://FOO derivation-ok-restriction-4-1-err_0.xsd">
+	<bar.A />
+	<bar.B />
+	<bar.C />
+</foo>

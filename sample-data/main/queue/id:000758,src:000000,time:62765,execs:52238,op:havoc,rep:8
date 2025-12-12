@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DT3 HTML 4.0 Transww.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnome-xml push moue bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr><?xml ve bgcolor="white">
+	Foo1
+	<table border="4">
+	  td>Foo2<p><p></td><Ðtr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </bot onclick="aadtle>gnome-xml push mode y>
+</html>  

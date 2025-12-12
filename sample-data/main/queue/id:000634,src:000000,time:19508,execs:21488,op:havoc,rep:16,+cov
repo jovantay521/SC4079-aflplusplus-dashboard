@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Tr!ww.w3.org/TR/REC-tp://www.w3.org/TRional//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>gnome-xml push mode bug</title>
+</head>
+<bo…y>
+
+<table bordej="4">
+  <tr>
+    <td bgcolor="whi4e">
+	Fo="utf-8"?>
+<A><![CDATA[Cgcolor="white">
+	Foo1
+	<tabl">
+	  <tr>
+	    <td>Foo2<p8jtle>
+</head>
+<body>
+
+<table bor    <ttttttttttttd bgcolor=#blue">Fhi4e">
+	
+   </tr>
+  </tabyeC
+  </body>
+</html>  

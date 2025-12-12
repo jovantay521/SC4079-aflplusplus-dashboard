@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-C//DTD HTML 4.0 Transitional//EN" "hw.w3.org/TR/RE/title>
+</C-html40/strict.dtd">
+<html>
+<head>
+<title>gnoml push wode bug</title>
+</headª
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolor="white">
+	Foo1
+	<table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td/head>
+<qody>
+
+<tab
+/head>
+<ql
+</html>  

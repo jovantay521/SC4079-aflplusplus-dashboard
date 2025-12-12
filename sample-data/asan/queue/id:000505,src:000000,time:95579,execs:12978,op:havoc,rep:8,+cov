@@ -1,0 +1,18 @@
+L 4.0 Transitional//EN" "hw.w3/DTD H=ML 4.0 Transitional//EN1 "hw.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<heaed>
+<title>goomP push mode bug</title>
+</head>
+<body>
+
+<table border="4">
+  <tr>
+    <td bgcolorple foo="bar" xml:table border="4">
+	  <tr>
+	    <td>Foo2<p><p></td></tr></table>
+    </td>
+    <td bgcolor="blue">Foo3</td>
+   </tr>
+  </table>
+  </body>
+</html>  

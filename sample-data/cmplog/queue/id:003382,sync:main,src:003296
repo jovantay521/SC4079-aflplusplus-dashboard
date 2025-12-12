@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-88rsion="1.0" encodin59-1"?>
+<foo xmlns="http://FOO" xmlns:foo="http://FOO"
+	xmlns:xsi="http://******.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://FOO derivation-ok-restriction-4-1-err_0.xsd">
+	<bar.A />
+	<bar.B />
+	<bar.C />
+</foo>
