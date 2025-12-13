@@ -7,7 +7,7 @@ import glob
 
 UPDATE_INTERVAL = 60
 DATA_DIRECTORY = 'sample-data'
-PLOT_DATA_FILEPATH = 'out/main/plot_data'
+PLOT_DATA_FILEPATH = 'sample-data/main/plot_data'
 
 st.set_page_config(
     layout="wide"

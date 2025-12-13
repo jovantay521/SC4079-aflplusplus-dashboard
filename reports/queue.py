@@ -17,8 +17,8 @@ logger = logging.getLogger()
 
 UPDATE_INTERVAL = 60
 
-queue_data_filepath = 'out/main/queue_data'
-plot_data_filepath = 'out/main/plot_data'
+queue_data_filepath = 'sample-data/main/queue_data'
+plot_data_filepath = 'sample-data/main/plot_data'
 
 st.set_page_config(layout='wide')
 # @st.cache_data(ttl=60)

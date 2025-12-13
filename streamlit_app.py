@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 
-debug_mode = os.environ["DEBUG"] == "1"
+debug_mode = os.environ.get("DEBUG") == "1"
 
 dashboard = st.Page("reports/dashboard.py", title="Dashboard", default=True)
 queue = st.Page("reports/queue.py", title="Queue")
