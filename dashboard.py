@@ -8,7 +8,6 @@ from utils import *
 
 UPDATE_INTERVAL = 60
 DATA_DIRECTORY_PATH = 'sample-data'
-FUZZER_STATS_FILE_NAME = 'fuzzer_stats'
 PLOT_DATA_file_path = 'sample-data/main/plot_data'
 
 st.set_page_config(
@@ -16,23 +15,15 @@ st.set_page_config(
 )
 
 
-# TODO: return a list of dataframes based on given DATA_DIRECTORY_PATH and PLOT_DATA_FILE_NAME
-def load_plot_data(file_path, skip_rows=0):
-    if skip_rows > 0:
-        df = pd.read_csv(file_path, skiprows=range(1, skip_rows + 1))
-    else:
-        df = pd.read_csv(file_path)
-    df.columns = df.columns.str.strip()
-    df.rename(columns={df.columns[0]: 'relative_time'}, inplace=True)
-    return df
-
-
-
 if st.button("Refresh") or 'fuzzer_stats' or 'plot_data' not in st.session_state:
-    st.session_state.fuzzer_stats = load_fuzzer_stats(
-        get_file_paths(DATA_DIRECTORY_PATH, FUZZER_STATS_FILE_NAME))
-    st.session_state.plot_data = load_plot_data(PLOT_DATA_file_path)
-    st.session_state.plot_data_len = len(st.session_state.plot_data)
+    st.session_state.fuzzer_stats = load_fuzzer_stats(DATA_DIRECTORY_PATH)
+    for file_path in glob.glob(os.path.join(DATA_DIRECTORY_PATH, "*", "plot_data")):
+        base_name = os.path.basename(os.path.dirname(file_path))
+        plot_data = load_plot_data(file_path)
+        st.session_state[base_name] = {
+            'plot_data': plot_data,
+            'plot_data_len': len(plot_data)
+        }
 
 
 @st.fragment(run_every=UPDATE_INTERVAL)
@@ -50,23 +41,34 @@ def generate_progress_bar():
 
 @st.fragment(run_every=UPDATE_INTERVAL)
 def generate_chart():
-    new_data = load_plot_data(
-        PLOT_DATA_file_path, skip_rows=st.session_state.plot_data_len)
-    if not new_data.empty:
-        st.session_state.plot_data = pd.concat(
-            [st.session_state.plot_data, new_data], ignore_index=True)
-    st.session_state.plot_data_len = len(st.session_state.plot_data)
-    fig = px.line(
-        st.session_state.plot_data,
-        x='relative_time',
-        y='edges_found',
-        # title="Queue Metrics Over Time",
-        # hover_data=['cur_item']
-    )
+    plot_data_fig = go.Figure()
 
-    st.plotly_chart(fig, width='stretch')
+    for file_path in glob.glob(os.path.join(DATA_DIRECTORY_PATH, "*", "plot_data")):
+        base_name = os.path.basename(os.path.dirname(file_path))
+        session_plot_data = st.session_state[base_name]['plot_data']
+        session_plot_data_len = st.session_state[base_name]['plot_data_len']
+        new_plot_data = load_plot_data(
+            file_path, skip_rows=session_plot_data_len)
+        print(new_plot_data.tail())
+        if not new_plot_data.empty:
+            updated_plot_data = pd.concat(
+                [session_plot_data, new_plot_data], ignore_index=True),
+            st.session_state[base_name] = {
+                'plot_data': updated_plot_data,
+                'plot_data_len': len(updated_plot_data)
+            }
+
+        plot_data_fig.add_trace(go.Scatter(
+            x=session_plot_data['relative_time'],
+            y=session_plot_data['edges_found'],
+            # mode='lines'
+            name=base_name
+        ))
+
+    st.plotly_chart(plot_data_fig)
+
     if st.checkbox('Show latest data'):
-        st.dataframe(new_data.tail())
+        st.dataframe(new_plot_data.tail())
 
 
 @st.fragment(run_every=UPDATE_INTERVAL)
@@ -105,22 +107,8 @@ generate_progress_bar()
 col1, col2 = st.columns(2, border=True)
 
 with col1:
-    plot_data_fig = go.Figure()
-    for filepath in get_file_paths(DATA_DIRECTORY_PATH, 'plot_data'):
-        plot_data_df = load_plot_data(filepath)
-        base_name = os.path.basename(os.path.dirname(filepath))
-        # plot_data_df['fuzzer'] = base_name
-        # print(plot_data_df.tail())
-        plot_data_fig.add_trace(go.Scatter(
-            x=plot_data_df['relative_time'],
-            y=plot_data_df['edges_found'],
-            # mode='lines'
-            name=base_name
-        ))
 
-    st.plotly_chart(plot_data_fig)
-
-    # generate_chart()
+    generate_chart()
 
 with col2:
     generate_crash_hangs_bar()

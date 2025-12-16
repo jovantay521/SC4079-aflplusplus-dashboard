@@ -4,26 +4,7 @@ from typing import *
 import glob
 
 
-def get_file_paths(directory_path: str, file_name: str) -> List[str]:
-    """
-    Returns a list of file paths matching the specified file name within all subdirectories of the given directory.
-
-    Args:
-        directory_path (str): The path to the parent directory to search within.
-        file_name (str): The name of the file to search for in each subdirectory.
-
-    Returns:
-        List[str]: A list of full file paths that match the specified file name within the subdirectories.
-
-    Example:
-        get_file_paths("home/user/sample-data", "fuzzer_stats")
-        Returns: ['sample-data/compcov/fuzzer_stats', 'sample-data/asan/fuzzer_stats', 'sample-data/main/fuzzer_stats', 'sample-data/ubsan/fuzzer_stats', 'sample-data/cmplog/fuzzer_stats']
-    """
-    file_paths = glob.glob(os.path.join(directory_path, "*", file_name))
-    return file_paths
-
-
-def load_fuzzer_stats(file_paths: List[str]) -> pd.DataFrame:
+def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
     """
     Loads and combines fuzzer_stats files into a single DataFrame.
 
@@ -34,6 +15,8 @@ def load_fuzzer_stats(file_paths: List[str]) -> pd.DataFrame:
         pd.DataFrame: DataFrame indexed by fuzzer name.
     """
     fuzzer_stats_dfs = {}
+
+    file_paths = glob.glob(os.path.join(directory_path, "*", "fuzzer_stats"))
 
     for file_path in file_paths:
         directory_name = os.path.dirname(file_path)
@@ -55,3 +38,32 @@ def load_fuzzer_stats(file_paths: List[str]) -> pd.DataFrame:
         lambda x: f"{x//60}:{x % 60}")
 
     return combined_fuzzer_stats_df
+
+# def load_plot_data(directory_path: str, skip_rows: int = 0) -> Dict:
+#     plot_data_dfs = {}
+#     file_paths = glob.glob(os.path.join(directory_path, "*", "plot_data"))
+
+#     for file_path in file_paths:
+#         base_name = os.path.basename(os.path.dirname(file_path))
+
+#         # only read new rows not previously stored in session state
+#         if skip_rows > 0:
+#             df = pd.read_csv(file_path, skiprows=range(1, skip_rows + 1))
+#         else:
+#             df = pd.read_csv(file_path)
+
+#         df.columns = df.columns.str.strip()
+#         df.rename(columns={df.columns[0]: 'relative_time'}, inplace=True)
+#         plot_data_dfs[base_name] = df
+    
+#     return plot_data_dfs
+
+
+def load_plot_data(file_path: str, skip_rows: int = 0) -> pd.DataFrame:
+    if skip_rows > 0:
+        df = pd.read_csv(file_path, skiprows=range(1, skip_rows + 1))
+    else:
+        df = pd.read_csv(file_path)
+    df.columns = df.columns.str.strip()
+    df.rename(columns={df.columns[0]: 'relative_time'}, inplace=True)
+    return df
