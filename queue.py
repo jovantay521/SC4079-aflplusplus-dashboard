@@ -17,6 +17,7 @@ logger = logging.getLogger()
 
 UPDATE_INTERVAL = 60
 
+
 queue_data_filepath = 'sample-data/main/queue_data'
 plot_data_filepath = 'sample-data/main/plot_data'
 

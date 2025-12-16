@@ -8,7 +8,6 @@ from utils import *
 
 UPDATE_INTERVAL = 60
 DATA_DIRECTORY_PATH = 'sample-data'
-PLOT_DATA_file_path = 'sample-data/main/plot_data'
 
 st.set_page_config(
     layout="wide"
