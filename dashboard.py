@@ -48,10 +48,10 @@ def generate_chart():
         session_plot_data_len = st.session_state[base_name]['plot_data_len']
         new_plot_data = load_plot_data(
             file_path, skip_rows=session_plot_data_len)
-        print(new_plot_data.tail())
+        # print(new_plot_data.tail())
         if not new_plot_data.empty:
             updated_plot_data = pd.concat(
-                [session_plot_data, new_plot_data], ignore_index=True),
+                [session_plot_data, new_plot_data], ignore_index=True)
             st.session_state[base_name] = {
                 'plot_data': updated_plot_data,
                 'plot_data_len': len(updated_plot_data)
@@ -64,16 +64,17 @@ def generate_chart():
             name=base_name
         ))
 
+    plot_data_fig.update_layout(title='Edges Found Over Time')
+
     st.plotly_chart(plot_data_fig)
 
-    if st.checkbox('Show latest data'):
-        st.dataframe(new_plot_data.tail())
+    # if st.checkbox('Show latest data'):
+    #     st.dataframe(new_plot_data.tail())
 
 
 @st.fragment(run_every=UPDATE_INTERVAL)
 def generate_crash_hangs_bar():
     # Show crashes and hangs per fuzzer
-    st.write("Crashes and Hangs Per Fuzzer")
     # Prepare data for bar chart
     crash_hang_df = st.session_state.fuzzer_stats.reset_index(
     )[['index', 'saved_crashes', 'saved_hangs']].copy()
