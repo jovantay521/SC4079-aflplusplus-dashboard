@@ -39,6 +39,7 @@ def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
 
     return combined_fuzzer_stats_df
 
+# Currently not in use. Refer to commit 7186c0f157a33a72c8aab2bd514ef7ef4910c876.
 # def load_plot_data(directory_path: str, skip_rows: int = 0) -> Dict:
 #     plot_data_dfs = {}
 #     file_paths = glob.glob(os.path.join(directory_path, "*", "plot_data"))
