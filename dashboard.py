@@ -13,7 +13,6 @@ st.set_page_config(
     layout="wide"
 )
 
-
 if st.button("Refresh") or 'fuzzer_stats' or 'plot_data' not in st.session_state:
     st.session_state.fuzzer_stats = load_fuzzer_stats(DATA_DIRECTORY_PATH)
     for file_path in glob.glob(os.path.join(DATA_DIRECTORY_PATH, "*", "plot_data")):
