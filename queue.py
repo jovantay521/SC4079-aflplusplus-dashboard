@@ -25,32 +25,10 @@ DATA_DIRECTORY_PATH = 'sample-data'
 st.set_page_config(layout='wide')
 
 
-if st.button("Refresh") or 'plot_data' not in st.session_state:
-    for file_path in glob.glob(os.path.join(DATA_DIRECTORY_PATH, "*", "plot_data")):
-        base_name = os.path.basename(os.path.dirname(file_path))
-        plot_data = load_plot_data(file_path)
-        st.session_state[base_name] = {
-            'plot_data': plot_data,
-            'plot_data_len': len(plot_data)
-        }
-
-
 @st.fragment(run_every=UPDATE_INTERVAL)
-def generate_chart():
-    # update session plot data
-    for file_path in glob.glob(os.path.join(DATA_DIRECTORY_PATH, "*", "plot_data")):
-        base_name = os.path.basename(os.path.dirname(file_path))
-        session_plot_data = st.session_state[base_name]['plot_data']
-        session_plot_data_len = st.session_state[base_name]['plot_data_len']
-        new_plot_data = load_plot_data(
-            file_path, skip_rows=session_plot_data_len)
-        if not new_plot_data.empty:
-            updated_plot_data = pd.concat(
-                [session_plot_data, new_plot_data], ignore_index=True)
-            st.session_state[base_name] = {
-                'plot_data': updated_plot_data,
-                'plot_data_len': len(updated_plot_data)
-            }
+def generate_plot_data_chart():
+    update_session_plot_data(DATA_DIRECTORY_PATH)
+    update_session_fuzzer_stats(DATA_DIRECTORY_PATH)
     metrics = ['corpus_count', 'pending_total', 'pending_favs']
     metric_titles = {
         'corpus_count': 'Corpus Count Over Time',
@@ -73,7 +51,36 @@ def generate_chart():
             st.plotly_chart(fig)
 
 
-generate_chart()
+generate_plot_data_chart()
+
+
+def generate_queue_data_chart():
+    update_session_fuzzer_stats(DATA_DIRECTORY_PATH)
+    update_session_queue_data(DATA_DIRECTORY_PATH)
+    queue_data_dfs = []
+    for idx, row in st.session_state.fuzzer_stats.iterrows():
+        cur_item = row['cur_item']
+        queue_data = st.session_state[idx]['queue_data']
+        regex_pattern = rf'id:0*{cur_item}\b'
+        queue_data_df = queue_data[queue_data['filename'].str.contains(
+            regex_pattern)]
+        queue_data_df = queue_data_df.copy()
+        queue_data_df.loc[:, 'fuzzer'] = idx
+        queue_data_df = queue_data_df.set_index('fuzzer')
+        # st.dataframe(queue_data_df)
+        queue_data_dfs.append(queue_data_df)
+
+    result = pd.concat(queue_data_dfs)
+    st.title("Current queue")
+    st.dataframe(result)
+
+
+generate_queue_data_chart()
 
 st.caption(
     f"**Last updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (Update interval: {UPDATE_INTERVAL}s)")
+
+if st.button("Refresh"):
+    update_session_fuzzer_stats(DATA_DIRECTORY_PATH)
+    update_session_queue_data(DATA_DIRECTORY_PATH)
+    update_session_plot_data(DATA_DIRECTORY_PATH)

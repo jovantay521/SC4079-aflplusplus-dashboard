@@ -2,6 +2,7 @@ import pandas as pd
 import os
 from typing import *
 import glob
+import streamlit as st
 
 
 def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
@@ -56,7 +57,7 @@ def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
 #         df.columns = df.columns.str.strip()
 #         df.rename(columns={df.columns[0]: 'relative_time'}, inplace=True)
 #         plot_data_dfs[base_name] = df
-    
+
 #     return plot_data_dfs
 
 
@@ -68,3 +69,93 @@ def load_plot_data(file_path: str, skip_rows: int = 0) -> pd.DataFrame:
     df.columns = df.columns.str.strip()
     df.rename(columns={df.columns[0]: 'relative_time'}, inplace=True)
     return df
+
+
+def load_queue_data(file_path: str, skip_rows: int = 0) -> pd.DataFrame:
+    if skip_rows > 0:
+        df = pd.read_csv(file_path, skiprows=range(1, skip_rows + 1))
+    else:
+        df = pd.read_csv(file_path)
+    df.columns = df.columns.str.strip()
+    df.rename(columns={df.columns[0]: 'filename'}, inplace=True)
+    return df
+
+
+def update_session_fuzzer_stats(directory_path):
+    st.session_state.fuzzer_stats = load_fuzzer_stats(directory_path)
+
+
+# def update_session_plot_data(directory_path):
+#     for file_path in glob.glob(os.path.join(directory_path, "*", "plot_data")):
+#         base_name = os.path.basename(os.path.dirname(file_path))
+#         prev_data = st.session_state.get(base_name, {}).get('plot_data', None)
+#         prev_len = len(prev_data) if prev_data is not None else 0
+#         new_data = load_plot_data(file_path, skip_rows=prev_len)
+#         if prev_data is None:
+#             # First load for this fuzzer
+#             updated_data = load_plot_data(file_path)
+
+#             st.session_state[base_name] = {
+#                 'plot_data': updated_data,
+#                 'plot_data_len': len(updated_data)
+#             }
+#         elif not new_data.empty:
+#             # Only update if there is new data
+#             updated_data = pd.concat([prev_data, new_data], ignore_index=True)
+
+#             st.session_state[base_name] = {
+#                 'plot_data': updated_data,
+#                 'plot_data_len': len(updated_data)
+#             }
+
+
+def update_session_plot_data(directory_path):
+    for file_path in glob.glob(os.path.join(directory_path, "*", "plot_data")):
+        base_name = os.path.basename(os.path.dirname(file_path))
+        if base_name not in st.session_state or 'plot_data' not in st.session_state[base_name]:
+            plot_data = load_plot_data(file_path)
+            st.session_state[base_name] = {
+                'plot_data': plot_data,
+                'plot_data_len': len(plot_data)
+            }
+
+        else:
+            existing_plot_data = st.session_state[base_name]['plot_data']
+            existing_plot_data_len = st.session_state[base_name]['plot_data_len']
+            new_plot_data = load_plot_data(
+                file_path, skip_rows=existing_plot_data_len)
+
+            if not new_plot_data.empty:
+                updated_data = pd.concat(
+                    [existing_plot_data, new_plot_data], ignore_index=True)
+
+                st.session_state[base_name] = {
+                    'plot_data': updated_data,
+                    'plot_data_len': len(updated_data),
+                }
+
+
+def update_session_queue_data(directory_path):
+    for file_path in glob.glob(os.path.join(directory_path, "*", "queue_data")):
+        base_name = os.path.basename(os.path.dirname(file_path))
+        if base_name not in st.session_state or 'queue_data' not in st.session_state[base_name]:
+            queue_data = load_queue_data(file_path)
+            st.session_state[base_name] = {
+                'queue_data': queue_data,
+                'queue_data_len': len(queue_data)
+            }
+
+        else:
+            existing_queue_data = st.session_state[base_name]['queue_data']
+            existing_queue_data_len = st.session_state[base_name]['queue_data_len']
+            new_queue_data = load_queue_data(
+                file_path, skip_rows=existing_queue_data_len)
+
+            if not new_queue_data.empty:
+                updated_data = pd.concat(
+                    [existing_queue_data, new_queue_data], ignore_index=True)
+
+                st.session_state[base_name] = {
+                    'queue_data': updated_data,
+                    'queue_data_len': len(updated_data),
+                }
