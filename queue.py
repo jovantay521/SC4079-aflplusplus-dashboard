@@ -51,9 +51,6 @@ def generate_plot_data_chart():
             st.plotly_chart(fig)
 
 
-generate_plot_data_chart()
-
-
 def generate_queue_data_chart():
     update_session_fuzzer_stats(DATA_DIRECTORY_PATH)
     update_session_queue_data(DATA_DIRECTORY_PATH)
@@ -75,6 +72,7 @@ def generate_queue_data_chart():
     st.dataframe(result)
 
 
+generate_plot_data_chart()
 generate_queue_data_chart()
 
 st.caption(
