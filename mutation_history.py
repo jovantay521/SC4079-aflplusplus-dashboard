@@ -24,7 +24,7 @@ with open('sample-data/main/introspection.txt') as f:
             else:
                 orig_info, mutation = left, ''
             # print('orig info:', orig_info)
-            print('mutation:', mutation)
+            # print('mutation:', mutation)
             rows.append({
                 'original': orig_info,
                 'mutation': mutation,
