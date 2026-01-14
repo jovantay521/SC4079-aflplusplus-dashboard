@@ -3,24 +3,15 @@ import pandas as pd
 # import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
-import time
-import logging
 import glob
 import os
 from utils import *
 
-# logging configuration
-logging.basicConfig(
-    filename='queue.log',
-    level=logging.INFO,
-    format='%(asctime)s,%(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S',
-    filemode='a'
-)
-logger = logging.getLogger()
 
 UPDATE_INTERVAL = 60
-DATA_DIRECTORY_PATH = 'sample-data'
+# UPDATE_INTERVAL = 5
+# DATA_DIRECTORY_PATH = 'sample-data'
+DATA_DIRECTORY_PATH = 'out'
 
 st.set_page_config(layout='wide')
 
@@ -57,24 +48,33 @@ def generate_queue_data_chart():
     update_session_queue_data(DATA_DIRECTORY_PATH)
     queue_data_dfs = []
     for idx, row in st.session_state.fuzzer_stats.iterrows():
-        cur_item = row['cur_item']
-        queue_data = st.session_state[idx]['queue_data']
-        regex_pattern = rf'id:0*{cur_item}\b'
-        queue_data_df = queue_data[queue_data['filename'].str.contains(
-            regex_pattern)]
-        queue_data_df = queue_data_df.copy()
-        queue_data_df.loc[:, 'fuzzer'] = idx
-        queue_data_df = queue_data_df.set_index('fuzzer')
-        # st.dataframe(queue_data_df)
-        queue_data_dfs.append(queue_data_df)
+        try:
+            cur_item = row['cur_item']
+            # st.text(f"{idx}:{cur_item}")
+            queue_data = st.session_state[idx]['queue_data']
+            regex_pattern = rf'id:0*{cur_item}\b'
+            queue_data_df = queue_data[queue_data['filename'].str.contains(
+                regex_pattern)]
+            # st.dataframe(queue_data_df)
+            queue_data_df = queue_data_df.copy()
+            queue_data_df.loc[:, 'fuzzer'] = idx
+            queue_data_df = queue_data_df.set_index('fuzzer')
+            queue_data_dfs.append(queue_data_df)
+        except:
+            st.warning(f"Queue information for item {cur_item} not loaded (item has not been executed yet) ({idx})")
 
     result = pd.concat(queue_data_dfs)
-    st.title("Current queue")
     st.dataframe(result)
 
 
 generate_plot_data_chart()
+
+st.space()
+
+st.subheader("Current Queue")
 generate_queue_data_chart()
+
+st.space()
 
 st.caption(
     f"**Last updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (Update interval: {UPDATE_INTERVAL}s)")

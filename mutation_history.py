@@ -1,6 +1,10 @@
 import streamlit as st
+from datetime import datetime
 import pandas as pd
-import re
+
+st.set_page_config(layout='wide')
+
+UPDATE_INTERVAL = 60
 
 rows = []
 with open('sample-data/main/introspection.txt') as f:
@@ -31,19 +35,30 @@ with open('sample-data/main/introspection.txt') as f:
                 'result': right
             })
 
-df = pd.DataFrame(rows)
+    df = pd.DataFrame(rows)
 
+    return df
+
+df = load_mutation_history()
 selected_result = st.selectbox(
     "Select resulting file to view mutation history:",
     df['result']
 )
 
 selected_row = df[df['result'] == selected_result].iloc[0]
-st.write('original seed')
+
+st.divider()
+
+st.subheader('Original Seed')
 st.code(selected_row['original'], language=None)
-st.write('mutation history')
-st.code(selected_row['mutation'], language=None)
-st.write('resulting seed')
+
+st.subheader('Resulting Seed')
 st.code(selected_row['result'], language=None)
 
-st.caption("Under construction")
+st.subheader('Mutation History')
+st.json(selected_row['mutation'])
+
+load_mutation_history()
+
+st.caption(
+    f"**Last updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (Update interval: {UPDATE_INTERVAL}s)")

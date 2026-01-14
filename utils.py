@@ -3,6 +3,21 @@ import os
 from typing import *
 import glob
 import streamlit as st
+from stqdm import stqdm
+import logging
+import time
+from datetime import datetime
+
+
+# logging configuration
+logging.basicConfig(
+    filename='logs/utils.log',
+    level=logging.INFO,
+    format='%(asctime)s,%(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    filemode='a'
+)
+logger = logging.getLogger()
 
 
 def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
@@ -15,6 +30,7 @@ def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
     Returns:
         pd.DataFrame: DataFrame indexed by fuzzer name.
     """
+    start_time = time.time()
     fuzzer_stats_dfs = {}
 
     file_paths = glob.glob(os.path.join(directory_path, "*", "fuzzer_stats"))
@@ -38,6 +54,7 @@ def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
     combined_fuzzer_stats_df['run_time'] = run_time_sec.apply(
         lambda x: f"{x//60}:{x % 60}")
 
+    logger.info(f"load_fuzzer_stats,{time.time() - start_time}")
     return combined_fuzzer_stats_df
 
 # Currently not in use. Refer to commit 7186c0f157a33a72c8aab2bd514ef7ef4910c876.
@@ -62,55 +79,38 @@ def load_fuzzer_stats(directory_path: str) -> pd.DataFrame:
 
 
 def load_plot_data(file_path: str, skip_rows: int = 0) -> pd.DataFrame:
+    start_time = time.time()
     if skip_rows > 0:
         df = pd.read_csv(file_path, skiprows=range(1, skip_rows + 1))
     else:
         df = pd.read_csv(file_path)
     df.columns = df.columns.str.strip()
     df.rename(columns={df.columns[0]: 'relative_time'}, inplace=True)
+    logger.info(f"load_plot_data,{time.time() - start_time}")
     return df
 
 
 def load_queue_data(file_path: str, skip_rows: int = 0) -> pd.DataFrame:
+    start_time = time.time()
     if skip_rows > 0:
         df = pd.read_csv(file_path, skiprows=range(1, skip_rows + 1))
     else:
         df = pd.read_csv(file_path)
     df.columns = df.columns.str.strip()
     df.rename(columns={df.columns[0]: 'filename'}, inplace=True)
+    logger.info(f"load_queue_data,{time.time() - start_time}")
     return df
 
 
 def update_session_fuzzer_stats(directory_path):
+    start_time = time.time()
     st.session_state.fuzzer_stats = load_fuzzer_stats(directory_path)
-
-
-# def update_session_plot_data(directory_path):
-#     for file_path in glob.glob(os.path.join(directory_path, "*", "plot_data")):
-#         base_name = os.path.basename(os.path.dirname(file_path))
-#         prev_data = st.session_state.get(base_name, {}).get('plot_data', None)
-#         prev_len = len(prev_data) if prev_data is not None else 0
-#         new_data = load_plot_data(file_path, skip_rows=prev_len)
-#         if prev_data is None:
-#             # First load for this fuzzer
-#             updated_data = load_plot_data(file_path)
-
-#             st.session_state[base_name] = {
-#                 'plot_data': updated_data,
-#                 'plot_data_len': len(updated_data)
-#             }
-#         elif not new_data.empty:
-#             # Only update if there is new data
-#             updated_data = pd.concat([prev_data, new_data], ignore_index=True)
-
-#             st.session_state[base_name] = {
-#                 'plot_data': updated_data,
-#                 'plot_data_len': len(updated_data)
-#             }
+    logger.info(f"update_session_fuzzer_stats,{time.time() - start_time}")
 
 
 def update_session_plot_data(directory_path):
-    for file_path in glob.glob(os.path.join(directory_path, "*", "plot_data")):
+    start_time = time.time()
+    for file_path in stqdm(glob.glob(os.path.join(directory_path, "*", "plot_data")), desc="Updating plot data"):
         base_name = os.path.basename(os.path.dirname(file_path))
         if base_name not in st.session_state or 'plot_data' not in st.session_state[base_name]:
             plot_data = load_plot_data(file_path)
@@ -132,11 +132,14 @@ def update_session_plot_data(directory_path):
                 st.session_state[base_name] = {
                     'plot_data': updated_data,
                     'plot_data_len': len(updated_data),
+                    'new_plot_data': new_plot_data
                 }
+    logger.info(f"update_session_plot_data,{time.time() - start_time}")
 
 
 def update_session_queue_data(directory_path):
-    for file_path in glob.glob(os.path.join(directory_path, "*", "queue_data")):
+    start_time = time.time()
+    for file_path in stqdm(glob.glob(os.path.join(directory_path, "*", "queue_data")), desc="Updating queue data"):
         base_name = os.path.basename(os.path.dirname(file_path))
         if base_name not in st.session_state or 'queue_data' not in st.session_state[base_name]:
             queue_data = load_queue_data(file_path)
@@ -159,3 +162,8 @@ def update_session_queue_data(directory_path):
                     'queue_data': updated_data,
                     'queue_data_len': len(updated_data),
                 }
+
+    logger.info(f"update_session_queue_data,{time.time() - start_time}")
+
+def check_last_updated(update_interval):
+    f"**Last updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (Update interval: {update_interval}s)"
