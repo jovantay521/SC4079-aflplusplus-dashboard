@@ -10,8 +10,8 @@ from utils import *
 
 UPDATE_INTERVAL = 60
 # UPDATE_INTERVAL = 5
-# DATA_DIRECTORY_PATH = 'sample-data'
-DATA_DIRECTORY_PATH = 'out'
+DATA_DIRECTORY_PATH = 'sample-data'
+# DATA_DIRECTORY_PATH = 'out'
 
 st.set_page_config(layout='wide')
 

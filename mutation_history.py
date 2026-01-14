@@ -35,11 +35,8 @@ with open('sample-data/main/introspection.txt') as f:
                 'result': right
             })
 
-    df = pd.DataFrame(rows)
+df = pd.DataFrame(rows)
 
-    return df
-
-df = load_mutation_history()
 selected_result = st.selectbox(
     "Select resulting file to view mutation history:",
     df['result']
@@ -56,9 +53,9 @@ st.subheader('Resulting Seed')
 st.code(selected_row['result'], language=None)
 
 st.subheader('Mutation History')
-st.json(selected_row['mutation'])
+print(selected_row['mutation'])
+st.json(selected_row['mutation'].split())
 
-load_mutation_history()
 
 st.caption(
     f"**Last updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} (Update interval: {UPDATE_INTERVAL}s)")
