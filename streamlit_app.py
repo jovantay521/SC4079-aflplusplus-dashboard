@@ -3,7 +3,8 @@ import streamlit as st
 
 debug_mode = os.environ.get("DEBUG") == "1"
 
-dashboard = st.Page("dashboard.py", title="Dashboard", default=True)
+development = st.Page("development.py", title="Development", default=True)
+dashboard = st.Page("dashboard.py", title="Dashboard")
 queue = st.Page("queue.py", title="Queue")
 mutation_history = st.Page(
     "mutation_history.py", title="Mutation History")
@@ -15,6 +16,6 @@ if debug_mode:
     pg = st.navigation([dashboard, queue, mutation_history,
                        crashes_hangs, debug], position="top")
 else:
-    pg = st.navigation([dashboard, queue, mutation_history,
+    pg = st.navigation([development, dashboard, queue, mutation_history,
                        crashes_hangs], position="top")
 pg.run()
